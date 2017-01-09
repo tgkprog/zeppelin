@@ -244,7 +244,9 @@ _Notes:_
  - Ensure node is installed by running `node --version`  
  - Ensure maven is running version 3.1.x or higher with `mvn -version`
  - Configure maven to use more memory than usual by `export MAVEN_OPTS="-Xmx2g -XX:MaxPermSize=1024m"`
-
+ - Change folder to zepplin web and run npm -install. Need to this first time. Commands in Zepplin folder:
+        `cd zeppelin-web`
+        `npm install`
 
 
 ## Proxy setting (optional)
